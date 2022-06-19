@@ -14,3 +14,23 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu[data-bs-popper]{
+  top: 112%;
+  left: -450%;
+}
+
+.dropdown-menu{
+  min-width: 20rem;
+  top: 110%;
+  left: -450%;
+}
+
+.cart-dropdown .dropdown-menu[data-bs-popper]{
+  top: 112%;
+  left: -385%;
+}
