@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders navbar 1`] = `
+<div>
+  <nav
+    class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top"
+  >
+    <div
+      class="container-fluid"
+    >
+      <a
+        class="navbar-brand"
+        href="/"
+      >
+        E-Commerce
+      </a>
+      <button
+        aria-label="Toggle navigation"
+        class="float-right navbar-toggler collapsed"
+        type="button"
+      >
+        <span
+          class="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        class="navbar-collapse collapse"
+        id="responsive-navbar-nav"
+      >
+        <div
+          class="ms-auto navbar-nav"
+        >
+          <div
+            class="cart-dropdown nav-item dropdown"
+          >
+            <a
+              aria-expanded="false"
+              class="dropdown-toggle nav-link"
+              href="#"
+              role="button"
+              tabindex="0"
+            >
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                tabindex="0"
+              >
+                <svg
+                  fill="currentColor"
+                  height="20"
+                  viewBox="0 0 16 16"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                  />
+                </svg>
+              </a>
+            </a>
+          </div>
+          <div
+            class="nav-item dropdown"
+          >
+            <a
+              aria-expanded="false"
+              class="dropdown-toggle nav-link"
+              href="#"
+              id="user-dropdown"
+              role="button"
+              tabindex="0"
+            >
+              <img
+                alt="image of logged in user"
+                class="rounded-circle"
+                height="40"
+                src="test.png"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+`;
